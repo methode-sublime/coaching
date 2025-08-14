@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta name="theme-color" content="#19A7CE" />
+  <title>Fast and Marvelous — Des pas de géant vers une vie merveilleuse</title>
+  <meta name="description" content="Méthode rapide et efficace pour parents épuisés : 8 semaines (40 min/semaine) + défis quotidiens. Rejoignez la promo ou réservez une séance individuelle (1h30 - 100€)." />
+  <!-- Open Graph -->
+  <meta property="og:title" content="Fast and Marvelous — Des pas de géant vers une vie merveilleuse" />
+  <meta property="og:description" content="Méthode rapide et efficace pour parents épuisés : 8 semaines (40 min/semaine) + défis quotidiens." />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20width='1200'%20height='630'%3E%3Crect%20width='100%25'%20height='100%25'%20fill='%23F7FBFC'/%3E%3Ctext%20x='50%25'%20y='50%25'%20dominant-baseline='middle'%20text-anchor='middle'%20font-family='Arial%2C%20sans-serif'%20font-size='38'%20fill='%2319A7CE'%3EFast%20and%20Marvelous%3C/text%3E%3C/svg%3E" />
+  <style>
+    /* ---------- Palette ---------- */
+    :root{
+      --turquoise:#19A7CE;
+      --green:#2ECC71;
+      --gold:#C89B3C;
+      --bg:#ffffff;
+      --muted:#6B6B6B;
+      --dark:#14202B;
+      --card:#F7FBFC;
+      --radius:14px;
+      --maxwidth:1100px;
+    }
+    /* ---------- Base ---------- */
+    *{box-sizing:border-box}
+    html,body{height:100%}
+    body{
+      margin:0;
+      font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans","Liberation Sans",sans-serif;
+      color:var(--dark);
+      background:linear-gradient(180deg,var(--bg) 0%,#f9fcfd 100%);
+      -webkit-font-smoothing:antialiased;
+      -moz-osx-font-smoothing:grayscale;
+      line-height:1.45;
+      padding:24px;
+      display:flex;
+      justify-content:center;
+    }
+    .wrap{width:100%;max-width:var(--maxwidth);}
+    a{color:var(--turquoise);text-decoration:none}
+    /* ---------- Header / Hero ---------- */
+    header{
+      display:grid;
+      grid-template-columns:1fr auto;
+      gap:16px;
+      align-items:center;
+      margin-bottom:20px;
+    }
+    .brand{display:flex;gap:12px;align-items:center}
+    .logo{
+      width:64px;height:64px;border-radius:12px;
+      background:linear-gradient(135deg,var(--turquoise),var(--green));
+      display:flex;align-items:center;justify-content:center;
+      color:white;font-weight:700;font-size:20px;
+      box-shadow:0 6px 18px rgba(25,167,206,0.18);
+      flex:0 0 64px;
+    }
+    .brand h1{font-size:18px;margin:0}
+    .brand p{margin:0;font-size:12px;color:var(--muted)}
+    .cta-row{display:flex;gap:10px;align-items:center}
+    .btn{
+      display:inline-flex;align-items:center;gap:8px;
+      padding:10px 16px;border-radius:10px;border:0;font-weight:600;
+      cursor:pointer;font-size:15px;
+    }
+    .btn-primary{background:var(--turquoise);color:white;box-shadow:0 8px 20px rgba(25,167,206,0.14)}
+    .btn-outline{background:transparent;border:2px solid var(--turquoise);color:var(--turquoise)}
+    .hero{
+      background:var(--card);padding:22px;border-radius:18px;
+      display:grid;grid-template-columns:1fr;gap:16px;align-items:center;
+      box-shadow:0 6px 24px rgba(20,32,43,0.04);
+    }
+    .hero h2{font-size:28px;margin:0;color:var(--dark)}
+    .hero p.lead{margin:0;color:var(--muted);font-size:15px}
+    .hero .actions{display:flex;gap:10px;flex-wrap:wrap;margin-top:8px}
+    /* ---------- Sections ---------- */
+    section{margin-top:22px}
+    .grid-3{display:grid;grid-template-columns:repeat(1,1fr);gap:12px}
+    @media(min-width:760px){.grid-3{grid-template-columns:repeat(3,1fr)}}
+    .card{
+      background:white;padding:18px;border-radius:12px;border:1px solid rgba(20,32,43,0.04);
+      min-height:110px;
+    }
+    .small{font-size:14px;color:var(--muted)}
+    ul.bullets{padding-le
